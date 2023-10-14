@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity Practice-2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: rgb(255, 250, 242);
+            padding: 2%;
+        }
+        h1{
+            color: black;
+        }
+        .h-blue{
+            color: blue;
+        }
+        .strike{
+            text-decoration: line-through;
+            color: grey;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>TodoList</h1>
+    <h1 class="h-blue">Today</h1>
+    <ul>
+        <li>Have a Drink</li>
+        <li class="strike">Go for a Walk</li>
+        <li>Read a book</li>
+        <li class="strike">Schedule Meeting with Alex</li>
+    </ul>
+    <h1>Tomorrow</h1>
+    <ul>
+        <li>Listen to the Video Session</li>
+        <li>Attempt Practice questions</li>
+        <li>Go for Shopping</li>
+        <li>Read Monthly Magazine</li>
+    </ul>
+</body>
+</html>
